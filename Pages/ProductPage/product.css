@@ -1,6 +1,6 @@
 .position-fixed{
     /* position: absolute; */
-    width: 33rem;
+    width: 20rem;
     height: 100%;
     /* left: 0px;
     top: 8.9rem; */
@@ -16,6 +16,7 @@
 .sidebar-header{
     display:flex;
     column-gap: 2rem;
+    justify-content: space-between;
 }
 .filter{
    display: flex;
@@ -24,6 +25,7 @@
 }
 .margin{
     margin-right: 1rem;
+    cursor: pointer;
 }
 .overline-text{
     text-decoration: line-through;
@@ -33,4 +35,24 @@
 }
 .product-container{
     display:flex;
+    margin:3.5rem 2rem 2rem 1rem;
+}
+.xs-margin{
+    margin-right:2px ;
+}
+.rating-xs-margin{
+    margin-top: 4px;
+}
+.card-width{
+    min-width:25rem ;
+}
+.overlay-text-alignment{
+    left:6.5rem;
+}
+.bottom-margin{
+    margin-bottom: 3rem;
+}
+.md-margin{
+    margin: 5px 2rem 0 0;
+    cursor: pointer;
 }
