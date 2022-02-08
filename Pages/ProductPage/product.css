@@ -1,0 +1,25 @@
+.position-fixed{
+    position: absolute;
+    width: 33rem;
+    height: 90rem;
+    left: 0px;
+    top: 8.9rem;
+    margin:2.5rem 0 0 3rem;
+}
+.sidebar-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.sidebar-header{
+    display:flex;
+    column-gap: 2rem;
+}
+.filter{
+   display: flex;
+   flex-direction: column;
+   row-gap: 1rem;
+}
+.margin{
+    margin-right: 1rem;
+}
