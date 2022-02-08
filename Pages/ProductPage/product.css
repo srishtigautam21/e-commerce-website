@@ -1,11 +1,7 @@
 .position-fixed{
-    /* position: absolute; */
     width: 20rem;
     height: 100%;
-    /* left: 0px;
-    top: 8.9rem; */
     margin:2.5rem 0 0 3rem;
-    /* flex:0 0 auto; */
 }
 .sidebar-flex{
     display: flex;
