@@ -1,5 +1,6 @@
 @import url('/Pages/HomePage/home.css');
 @import url('/Pages/ProductPage/product.css');
+@import url('/Pages/LoginPage/login.html');
 
 .main-wrapper{
     display: flex;
