@@ -1,0 +1,54 @@
+.position-fixed{
+    width: 20rem;
+    height: 100%;
+    margin:2.5rem 0 0 3rem;
+}
+.sidebar-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    flex:0 0 auto;
+}
+.sidebar-header{
+    display:flex;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+.filter{
+   display: flex;
+   flex-direction: column;
+   row-gap: 1rem;
+}
+.margin{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.overline-text{
+    text-decoration: line-through;
+}
+.sale-perct{
+    color:var(--ALERT-ERROR-COLOR);
+}
+.product-container{
+    display:flex;
+    margin:3.5rem 2rem 2rem 1rem;
+}
+.xs-margin{
+    margin-right:2px ;
+}
+.rating-xs-margin{
+    margin-top: 4px;
+}
+.card-width{
+    min-width:25rem ;
+}
+.overlay-text-alignment{
+    left:6.5rem;
+}
+.bottom-margin{
+    margin-bottom: 3rem;
+}
+.md-margin{
+    margin: 5px 2rem 0 0;
+    cursor: pointer;
+}
