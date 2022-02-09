@@ -59,7 +59,7 @@
     align-items: center;
     margin-top:2rem;
     padding:1rem 0 2rem 0;
-    box-shadow: 0px 2px 8px var(--BOX-SHADOW); 
+    box-shadow: 0px 2px 8px var(--BOX-SHADOW);
 }
 .margin-bottom{
     margin-bottom: 8px;

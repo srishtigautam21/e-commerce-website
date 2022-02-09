@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://umbrella-ui.netlify.app/css/components.css">
     <link rel="stylesheet" href="/common.css">
@@ -41,22 +41,22 @@
     </nav>
     <div class="login-signup-page">
         <form class="input-form login">
-            <h1 class="login-bottom-margin text-center">Login</h1>
-            <label for="email-input" class="label-font-size">Email Address*</label>
+            <h1 class="login-bottom-margin text-center">Sign Up</h1>
+            <label for="user-name" class="label-font-size">UserName</label>
+            <input type="text" placeholder="Enter your name" class="input-box" id="user-name">
+            <label for="email-input" class="label-font-size">Email Address</label>
             <input type="email" placeholder="example@xyz.com" class="input-box" id="email-input">
-            <label for="password" class="label-font-size">Password*</label>
-            <input type="password" minlength="8" class="input-box" id="password">
-            <div class="forgot-psswrd">
-                <label>
-                    <input type="checkbox" name="checkbox" class="checkbox-size">Remember Me
-                </label>
-                <p class="red-color forgot-psswrd-margin">Forgot Password?</p>
-            </div>
-            <a href="/Pages/ProductPage/product.html">
-                <button class="button login-button">Login</button>
-            </a>
-            <a class="signup-page-link signup-page-link-margin" href="/Pages/SignupPage/signup.html">
-                <p>New to nurish? SignUp Now</p>
+            <label for="password" class="label-font-size">Password</label>
+            <input type="password" minlength="8" class="input-box" id="password" placeholder="********">
+            <label for="password" class="label-font-size">Confirm Password</label>
+            <input type="password" minlength="8" class="input-box" id="password" placeholder="********">
+            <label>
+                <input type="checkbox" name="checkbox" class="checkbox-size">
+                I accept all Terms and Condition
+            </label>
+            <button class="button login-button">Create New Account</button>
+            <a class="signup-page-link signup-page-link-sm-margin" href="/Pages/LoginPage/login.html">
+                <p>Already have an account- Login</p>
             </a>
             
         </form>
