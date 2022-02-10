@@ -2,6 +2,7 @@
 @import url('/Pages/ProductPage/product.css');
 @import url('/Pages/LoginPage/login.css');
 @import url('/Pages/SignupPage/signup.css');
+@import url('/Pages/CartPage/cart.css');
 
 .main-wrapper{
     display: flex;
