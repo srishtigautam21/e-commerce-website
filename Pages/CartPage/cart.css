@@ -1,6 +1,5 @@
 .cart-page-container{
     display: flex;
-    /* column-gap: 4rem; */
     justify-content:space-around;
     padding:3rem;
 }

@@ -3,6 +3,7 @@
 @import url('/Pages/LoginPage/login.css');
 @import url('/Pages/SignupPage/signup.css');
 @import url('/Pages/CartPage/cart.css');
+@import url('/Pages/WishlistPage/wishlist.css');
 
 .main-wrapper{
     display: flex;

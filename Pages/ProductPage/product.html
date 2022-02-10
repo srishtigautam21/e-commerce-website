@@ -25,12 +25,15 @@
             <li class="list-style link-alignment">
                 <a class="link ecom-link-color" href="#">Products</a>
             </li>
+            <li class="list-style">
+                <button class="button outline-button nav-logout-btn">Logout</button>
+            </li>
             <li class="list-style icons-alignment">
                 <a class="link ecom-link-color" href="/Pages/CartPage/cart.html">
                     <i class="fa fa-shopping-cart nav-icons"></i><p>Cart</p></a>
             </li>
             <li class="list-style icons-alignment">
-                <a class="link ecom-link-color" href="#">
+                <a class="link ecom-link-color" href="/Pages/WishlistPage/wishlist.html">
                     <i class="fa fa-heart nav-icons"></i><p>Wishlist</p></a> 
             </li>
             <li class="list-style icons-alignment">
@@ -73,20 +76,14 @@
                 </label>
             </div>
             <h3>Ratings</h3>
-            <div class="filter">
-                <label for="rating-radio-1">
-                    <input class="margin" id="rating-radio-1" name="radio" type="radio">4 Star & above
-                </label>
-                <label for="rating-radio-2">
-                    <input  class="margin" id="rating-radio-2" name="radio" type="radio">3 Star & above
-                </label>
-                <label for="rating-radio-3">
-                    <input  class="margin" id="rating-radio-3" name="radio" type="radio">2 Star & above
-                </label>
-                <label for="rating-radio-4">
-                    <input  class="margin" id="rating-radio-4" name="radio" type="radio">1 Star & above
-                </label>
-            </div>
+            <label for="rating-range">
+                <div class="slider-range">
+                    <p class="lg-r-margin">1</p>
+                    <p class="lg-r-margin">3</p>
+                    <p>5</p>
+                </div>
+                <input class="rating-margin slider"id="rating-range" type="range" min="1" max="5" value="3">
+            </label>
         </aside>
         <div class="product-container">
             <div class="vertical-cards">
@@ -99,7 +96,7 @@
                             <p class="card-item-cost">Rs.225 (750g)</p>
                             <div class="rating-xs-margin">4.5 <span class="fa fa-star checked"></span>
                             <span class="xs-margin">|</span>5</div>
-                            <button class="button card-button">Add to Cart</button>
+                            <button class="button card-button ecom-card-button">Add to Cart</button>
                             <span class="badge-overlay">New</span>
                             <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
                         </div>
@@ -117,7 +114,7 @@
                             </p>
                             <div class="rating-xs-margin">4 <span class="fa fa-star checked"></span>
                             <span class="xs-margin">|</span>5</div>
-                            <button class="button card-button">Add to Cart</button>
+                            <button class="button card-button ecom-card-button">Add to Cart</button>
                             <span class="badge-overlay">Sale</span>
                             <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
                         </div>
@@ -132,7 +129,7 @@
                             <p class="card-item-cost">Rs.400 (500g)</p>
                             <div class="rating-xs-margin">3.5 <span class="fa fa-star checked"></span>
                             <span class="xs-margin">|</span>5 </div>
-                            <button class="button card-button">Add to Cart</button>
+                            <button class="button card-button ecom-card-button">Add to Cart</button>
                             <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
                         </div>
                     </div>
@@ -146,7 +143,7 @@
                             <p class="card-item-cost">Rs.300 (1kg)</p>
                             <div class="rating-xs-margin">4.5 <span class="fa fa-star checked"></span>
                             <span class="xs-margin">|</span>5</div>
-                            <button class="button card-button">Add to Cart</button>
+                            <button class="button card-button ecom-card-button">Add to Cart</button>
                             <span class="badge-overlay">New</span>
                             <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
                         </div>
@@ -161,7 +158,7 @@
                             <p class="card-item-cost">Rs.250 (250g)</p>
                             <div class="rating-xs-margin">4.5 <span class="fa fa-star checked"></span>
                             <span class="xs-margin">|</span>5</div>
-                            <button class="button card-button ">Add to Cart</button>
+                            <button class="button card-button ecom-card-button">Add to Cart</button>
                             <span class="overlay-text overlay-text-alignment">Out of Stock</span>
                             <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
                         </div>
@@ -179,7 +176,7 @@
                             </p>
                             <div class="rating-xs-margin">4 <span class="fa fa-star checked"></span>
                             <span class="xs-margin">|</span>5</div>
-                            <button class="button card-button">Add to Cart</button>
+                            <button class="button card-button ecom-card-button">Add to Cart</button>
                             <span class="badge-overlay">Sale</span>
                             <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
                         </div>
