@@ -4,6 +4,7 @@
 @import url('/Pages/SignupPage/signup.css');
 @import url('/Pages/CartPage/cart.css');
 @import url('/Pages/WishlistPage/wishlist.css');
+@import url('/Pages/LogoutPage/logout.css');
 
 .main-wrapper{
     display: flex;
